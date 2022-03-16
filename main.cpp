@@ -2,11 +2,19 @@
 using namespace std;
 
 int main(){
-//Qui vanno definite le variabili
+          float a; float b; float c;
+          float Atriangolo=((a*b)/2);
+          float Aquadrato=(a*a);
+          float Arettangolo=(a*b);
+          float Atrapezio=(((a+b)*c)/2);
 
 cin >> a >> b >> c;
 
-//Qui va scritto il codice per eseguire i calcoli richiesti
+          std::cout<<((a*b)/2)<<std::endl;
+          std::cout<<(a*a)<<std::endl;
+          std::cout<<(a*b)<<std::endl;
+          std::cout<<(((a+b)*c)/2)<<std::endl; 
+ return 0;
 
 
 }
